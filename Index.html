@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width,intial scale=1.0">
+    <title>University Website Design</title>
+
+    <link rel="stylesheet" href="./Style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="Index.html"><img src="./Camera Roll/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a>
+
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Making website is now one of the easiest thing in the world.
+                You just need to learn html, css,<br> javascript and you are good to go </p>
+
+
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </section>
+    <!-- course -->
+
+    <section class="course">
+        <h1> Courses We Offer</h1>
+        <p> Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+
+        </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adpising elit.
+                    pellentesque aliet turpis nulla ut.maecehas ut uenatisex,
+                    elitdpaibus purus Doneic sit.
+                </p>
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adpising elit.
+                    pellentesque aliet turpis nulla ut.maecehas ut uenatisex,
+                    elitdpaibus purus Doneic sit.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adpising elit.
+                    pellentesque aliet turpis nulla ut.maecehas ut uenatisex,
+                    elitdpaibus purus Doneic sit.
+                </p>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+    <!-- campus -->
+    <section class="campus">
+        <h1> Our Globel Campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="./Camera Roll/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./Camera Roll/newyork.png">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./Camera Roll/washington.png">
+                <div class="layer">
+                    <h3>WAHINGTON</h3>
+                    </h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- facilities -->
+    <section class="facilities">
+        <h1> Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adpising elit.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./Camera Roll/library.png">
+                <h3>World Class Libraray</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adpising elit.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./Camera Roll/basketball.png">
+                <h3>World Class Playground</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adpising elit.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./Camera Roll/cafeteria.png">
+                <h3>Nice Cafeteria</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adpising elit.</p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <!-- testimonial -->
+    <section class="testimonial">
+        <h1>What Are Student Says</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur </p>
+        <div class="row">
+            <div class="testimonial-col"> 
+                <img src="./Camera Roll/user1.jpg">
+             
+                <p> A really nice collage with good facilities. Also provide good source of education and god source of Placement </p>
+                <h3>Christine Berly </h3>
+              
+            </div>
+            <div class="testimonial-col"> 
+                <img src="./Camera Roll/user2.jpg">
+               
+                <p> A really nice collage with good facilities. Also provide good source of education and god source of Placement </p>
+                <h3>Chris Berly </h3>
+                
+            </div>
+        </div>
+
+
+    </section>
+
+
+<!-- Call to Action -->
+
+<section class="cta">
+<h1> Enroll for the various Courses<br> Anywhere from the World.</h1>
+<a href="" class="hero-btn">CONTACT US</a>
+
+
+</section>
+
+
+<!-- footer -->
+<section class="footer"> 
+<h4>About US</h4>
+<p> Lorem ipsum dolor sit amet, consectetur adpising elit.</p>
+
+
+
+
+</section>
+
+
+
+
+    <!-- javascript code from toggle m-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
